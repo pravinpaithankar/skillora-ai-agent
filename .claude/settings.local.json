@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.sarvam.ai)",
+      "Read(//f/**)",
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(cd:*)",
+      "Bash(powershell -Command \"(Get-Content server.js) -replace \"\"{ role: ''user'', content: message }\"\", \"\"{ role: ''user'', content: correctedMessage }\"\" | Set-Content server.js\")",
+      "Bash(npm uninstall:*)",
+      "Bash(curl -s https://2595e6acaef8.ngrok-free.app/health)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
